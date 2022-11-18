@@ -49,14 +49,14 @@ section{
     width: 150px;
     border-radius: 3pc;
     transition: all 400ms ease;
-    color: #2fb4cc;
+    color: white;
 
 }
 
 .pato{
     float: left;
     border: 1px ;
-    width: 25%;
+    width: 33%;
     background: #f5f5f5;
     height: 330px;
    
@@ -160,6 +160,34 @@ height: 50px;
     width: 1220px;
     height: 800px;
 }
+
+.btn_producto{
+    border: 1px rgb(255, 238, 0) solid;
+    border-radius: 3pc;
+    background: rgb(255, 238, 0);
+
+}
+
+.btn_producto:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+.pepe{
+    width: 270px ;
+    height: 50px;
+}
+ 
+.pepe{
+    border-radius: 3pc;
+    background: blue;
+}
+
+.pepe:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
 
 
 
