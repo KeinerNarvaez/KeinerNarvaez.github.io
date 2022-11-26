@@ -121,6 +121,7 @@ a ul li {
 #barra{
     border: 1px;
     height: 900px;
+   
 
 }
 
@@ -163,7 +164,7 @@ height: 50px;
 
 .btn_producto{
     border: 1px rgb(255, 238, 0) solid;
-    border-radius: 3pc;
+ 
     background: rgb(255, 238, 0);
 
 }
@@ -179,7 +180,7 @@ height: 50px;
 }
  
 .pepe{
-    border-radius: 3pc;
+
     background: blue;
 }
 
@@ -188,6 +189,44 @@ height: 50px;
     transform: translateY(-3%);
 }
 
+.paginacion{
+    margin:20px 0;
+ 
+}
+
+.paginacion ul{
+    list-style:none;
+   text-align:center;
+  
+}
+.paginacion ul li{
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.paginacion ul li a {
+    display: block;
+    padding: 8px 20px;
+    color: #fff;
+    background: #98a4a7;
+    text-decoration: none;
+}
+
+.paginacion ul li a:hover{
+    background: #98a4a7;
+    transform: translateY(-3%)
+}
+
+.paginacion ul li .active{
+    background: #30b7d8;
+    font-weight:bold ;
+}
+
+.resolucion {
+    width: 99%;
+    text-align: center;
+}
 
 
 
