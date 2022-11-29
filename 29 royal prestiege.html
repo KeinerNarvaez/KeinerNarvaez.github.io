@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Creddit Shopp</title>
+   <link rel="shortcut icon" href="img/creditt shop.png.jpeg">
+</head>
+
+  <!--Cabezera-->
+  <nav class="navbar bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="img/creditt shop.png.jpeg" alt="Logo" width="70" height="30" class="d-inline-block align-text-top">
+        <span id="logo" style="color:blue;">Credit shop</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><a href="index.html"><img src="img/creditt shop.png.jpeg" alt="Logo" width="40" height="32" class="d-inline-block align-text-top">
+            <span id="logo" style="color:blue;">Credit shop</span></a></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"><img src="img/icons8-casa-50.png" width="28" alt=""> INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="productos-colombianos.html"><img src="img/icons8-hat-64.png" width="28" alt="">PRODUCTOS COLOMBIANOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="Fox colombia.html"><img src="img/fox.png" width="28" alt="">FOX COLOMBIA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="royal prestige.html"><img src="img/royal prestiege.jpg" width="45" alt="" height="45">ROYAL PRESTIGE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="tu-credito.html"><img src="img/icons8-tarjetas-bancarias-50.png" width="28" alt="">TU CREDITO</a>
+            </li>
+            
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--/cabezera-->
+  <div id="contenedor">
+    <br> <br>
+    <!--Lo que encierra todo el el documento -->
+    <div style="border: 1px solid; width: 100%; height: 720px; background: white; border-radius: 0.5pc; ">
+
+      <!--Imagen del producto-->
+      <div id="img_producto" class="producto">
+        <img src="img/royal prestiege 29.png" width="90%" height="99%" style="margin: 11px;"alt="">
+      </div>
+
+      <!--Descripcion del producto-->
+      <div class="producto" style="  margin: 9px; border: 1px; width: 300px; height: 97%">
+        <h3 class="centrado">APPLE IPAD (NOVENA GENERACION 9)</h3>
+        <p class="centrado">
+          <b></p>
+        <h1 class="centrado">Descripcion</h1>
+            <p><ul>
+              Lo que tienes que saber de este producto.</b> <br>
+              <li>increíble pantalla Retina de 10.2 pulgadas con True Tone.</li>
+              <li>Chip A13 Bionic con Neural Engine.</li>
+              <li>Cámara trasera gran angular de 8 MP y cámara frontal ultra gran angular de 12 MP con Encuadre Centrado. </li>
+              <li>Hasta 64 GB de almacenamiento.</li>
+              <li>Bocinas estéreo.</li>
+              <li>Touch ID para una autenticación segura y Apple Pay.</li>
+              <li>Wi-Fi 802.11ac.</li>
+              <li>Hasta 10 horas de batería.(2)</li>
+              <li>Conector Lightning para cargar el iPad mini y para conectar accesorios.</li>
+              <li>Compatible con el Apple Pencil (primera generación) y el Smart Keyboard.(1) </li>
+              <li>iPadOS 15 es tan poderoso como fácil de usar y está diseñado para la versatilidad del iPad.</li>
+            </ul></p>
+      </div>
+
+      <!--Comprar o al carrito-->
+      <div class="producto" style="  margin: 9px; border: 1px solid #d6d6d6; width: 300px; height: 97%; border-radius: 0.5pc;">
+        <form action="" method="get">
+          
+          <h3>¿Que color de forro desea?</h3>
+          <p>Es necesario elegir 1 opcion</p>
+            <input type="radio" name="celular" value="" checked="checked"> Color negro <br>
+            <input type="radio"name="celular" value="" required>Color azul <br>
+                </form>
+         <form action="" method="get">
+          <h3>Cantidad de memoria</h3>
+          <p>Es necesario elegir 1 opcion</p>
+            <input type="radio"name="celular" value="" checked="checked" required>64GB<br>
+            <input type="radio"name="celular" value=""required>128GB<br>
+         </form>
+        <h4 >EN STOCK</h4>
+        <h3 style="margin: 11px ;">$ 1.700.000 / US$ 350</h3>
+        <h4 class="producto">cantidad:</h4><input type="number" class="producto" style="margin: 1px; "min="0" max="10">
+        <a  class="botoncomprar"  href=""><input type="submit" class="btn_producto" value="Comprar ahora" ></a>
+        <a  class="botoncomprar"  href=""><input type="submit" class="pepe" value="Al carrito" ></a>
+      </div>
+      
+      
+    </div>
+    <!--Cierre del documento-->
+    
+  </div>
+ <!--Footer-->
+      
+      
+ <div class="b-example-divider"></div>
+
+
+ <div class="container">
+   <footer class="py-5">
+     <div class="row">
+       <div class="d-flex flex-column flex-sm-row justify-content-between col-md-9 ">
+         <form>
+           <h5>CONTACTANOS</h5>
+           <p>Si deseas mas informacion puedes contactarnos enviando tu correo electronico</p>
+           <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+             <label for="newsletter1" class="visually-hidden">Correo electronico</label>
+             <input id="newsletter1" type="text" class="form-control" placeholder="Correo electronico">
+             <button class="btn btn-primary" type="button">Enviar correo</button>
+           </div>
+         </form>
+       </div>
+ 
+       
+ 
+       <div class="col-6 col-md-2 mb-3 py-2">
+        
+         <ul class="nav flex-column">
+           <ul class="list-unstyled d-flex">
+             <li class="ms-3"><a class="link-dark" href="https://web.telegram.org/?legacy=1#/login"><img class="bi" width="40" height="40" src="img/Telegram.png"><use xlink:href="#telegram"></use></img></a></li>
+             <li class="ms-3"><a class="link-dark" href="https://web.whatsapp.com/"><img class="bi" width="40" height="40" src="img/whatsapp.png"><use xlink:href="#whatsapp"></use></img></a></li>
+             <li class="ms-3"><a class="link-dark" href="https://www.youtube.com/"><img class="bi" width="40" height="40" src="img/youtube.png"><use xlink:href="#twitter"></use></i></a></li>
+             <li class="ms-3"><a class="link-dark" href="https://www.instagram.com/"><img class="bi" width="40" height="40" src="img/instagram.png"><use xlink:href="#instagram"></use></img></a></li>
+             <li class="ms-3"><a class="link-dark" href="https://www.facebook.com/"><img class="bi" width="40" height="40" src="img/facebook.png"><use xlink:href="#facebook"></use></img></a></li>
+           </ul>
+       </div>
+ 
+       
+     </div>
+ 
+     <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+       <p>© 2022 Credit Shop </p>
+       
+     </div>
+   </footer>
+ </div>
+ 
+ 
+     <script src="./Footers · Bootstrap v5.2_files/bootstrap.bundle.min.js.descarga" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+     <script src="js/bootstrap.bundle.min.js"></script>
+ </body>
+ </html>
