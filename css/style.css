@@ -113,10 +113,14 @@ a ul li {
 }
 
 .precio2{
-    float: left;
-    margin: 11px;
+    margin:70px;
     font-size: large;
 
+}
+.botoncomprar{
+float: left;
+margin: 11px;
+font-size: large;
 }
 #barra{
     border: 1px;
