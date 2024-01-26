@@ -152,6 +152,8 @@ font-size: large;
 
 .producto{
     float: left;
+    flex-wrap: wrap;
+    
 }
 #img_producto{
     height: 700px; ;
@@ -312,6 +314,27 @@ height: 50px;
     .precio{
     margin-right: 12px;
         
+    }
+    #contenedor{
+        width: 370px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        border: solid transparent;
+    }
+    #img_producto{
+        height: auto ;
+        width: auto;
+    }
+    #img_producto img {
+       width: 350px;
+       height: auto;
+       margin: none;
+    }
+    .producto {
+        margin: none;
+        border: solid transparent;
+        height: auto;
     }
 }
 
