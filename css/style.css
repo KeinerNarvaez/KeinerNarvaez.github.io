@@ -315,12 +315,12 @@ height: 50px;
     margin-right: 12px;
         
     }
-    #contenedor{
+    #contenedor {
         width: 370px;
         height: auto;
         display: flex;
         flex-wrap: wrap;
-        border: solid transparent;
+        border: 1px solid transparent;
     }
     #img_producto{
         height: auto ;
@@ -331,10 +331,21 @@ height: 50px;
        height: auto;
        margin: none;
     }
-    .producto {
+    .producto div {
         margin: none;
-        border: solid transparent;
-        height: auto;
+        border: solid red transparent ;
+        margin-left: 100000px;
+        
     }
+
+    #contenedor div {
+       width: 100%;
+       height: auto;
+    }
+    footer{
+        margin-top: 900px;
+    }
+
+
 }
 
