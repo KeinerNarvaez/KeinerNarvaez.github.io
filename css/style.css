@@ -153,6 +153,7 @@ font-size: large;
 .producto{
     float: left;
     flex-wrap: wrap;
+    height: auto;
     
 }
 #img_producto{
@@ -335,19 +336,30 @@ height: 50px;
         margin: none;
         border: solid red transparent ;
         margin-left: 100000px;
+        height: auto;
         
     }
 
     #contenedor div {
        width: 100%;
        height: auto;
+       
     }
     footer{
-        margin-top: 1000px;
+       width: 100%;
+       
+       height: auto;
+       flex-wrap: wrap;
+       
     }
-    #barra {
+    #barra{
         height: auto;
     }
+
+    #contenedor {
+        height: auto;
+    }
+
 
 }
 
