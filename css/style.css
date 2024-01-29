@@ -345,7 +345,9 @@ height: 50px;
     footer{
         margin-top: 1000px;
     }
-
+    #barra {
+        height: auto;
+    }
 
 }
 
